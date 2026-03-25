@@ -1,9 +1,11 @@
-# 🧾 ANE Purchases (In‑App Billing) 
+# 🧾 ANE Purchases (In‑App Billing) — `com.fluocode.extensions.billing`
+
 AIR Native Extension (ANE) that bridges ActionScript 3 to native **Android Google Play Billing** and **iOS StoreKit** to sell:
 
 - ✅ **Non‑consumables** (one‑time unlocks)
 - ✅ **Consumables** (coins, lives, etc.)
 - ✅ **Subscriptions** (auto‑renewing)
+
 
 ---
 
@@ -231,6 +233,30 @@ Billing.listener.addEventListener(BillingEvent.PARENT_PERMISSION_REQUIRED, funct
 ## 🧩 AIR app‑descriptor XML additions (required)
 
 You must add the following to your AIR application descriptor.
+
+### 🔌 Extensions (`<extensions>`)
+
+Declare **every** ANE your app packages, each with its own `<extensionID>`. Add this block at the root of the descriptor (alongside `<id>`, `<initialWindow>`, etc.).
+
+**This ANE’s id is:** `com.fluocode.extensions.billing`
+
+Example when you use this billing ANE together with other extensions (replace or remove ids to match your project):
+
+```xml
+<extensions>
+   ...
+  <extensionID>com.fluocode.extensions.billing</extensionID>
+  ...
+</extensions>
+```
+
+If **only** this billing ANE is linked, the block can be minimal:
+
+```xml
+<extensions>
+  <extensionID>com.fluocode.extensions.billing</extensionID>
+</extensions>
+```
 
 ### 🤖 Android: `manifestAdditions`
 
