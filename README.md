@@ -1,5 +1,4 @@
-# 🧾 ANE Purchases (In‑App Billing) — `com.fluocode.extensions.billing`
-
+# 🧾 ANE Purchases (In‑App Billing) 
 AIR Native Extension (ANE) that bridges ActionScript 3 to native **Android Google Play Billing** and **iOS StoreKit** to sell:
 
 - ✅ **Non‑consumables** (one‑time unlocks)
