@@ -1,0 +1,15 @@
+com.fluocode.ane-play-services-basement-18.9.0-0 C:\Users\esdeb\.gradle\caches\transforms-3\04972a8d3fb0c0f177d9f27930ec8b4a\transformed\play-services-basement-18.9.0\res
+com.fluocode.ane-core-1.2.0-1 C:\Users\esdeb\.gradle\caches\transforms-3\0f7ea09934c364c9fa6499e98b80e5bc\transformed\core-1.2.0\res
+com.fluocode.ane-play-services-base-18.5.0-2 C:\Users\esdeb\.gradle\caches\transforms-3\51438604ddb88a4fef71dcd178201f0d\transformed\play-services-base-18.5.0\res
+com.fluocode.ane-savedstate-1.1.0-3 C:\Users\esdeb\.gradle\caches\transforms-3\bc07e7658ba2b15c993c05a2b95300cb\transformed\savedstate-1.1.0\res
+com.fluocode.ane-billing-8.3.0-4 C:\Users\esdeb\.gradle\caches\transforms-3\ca833a705f66b56c9898d13c2881184d\transformed\billing-8.3.0\res
+com.fluocode.ane-lifecycle-viewmodel-2.3.1-5 C:\Users\esdeb\.gradle\caches\transforms-3\d6930b7e5693e36868183843a6f4131e\transformed\lifecycle-viewmodel-2.3.1\res
+com.fluocode.ane-lifecycle-runtime-2.3.1-6 C:\Users\esdeb\.gradle\caches\transforms-3\e287cb56931d6306e82c16cf7791d90e\transformed\lifecycle-runtime-2.3.1\res
+com.fluocode.ane-pngs-7 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\build\generated\res\pngs\release
+com.fluocode.ane-resValues-8 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\build\generated\res\resValues\release
+com.fluocode.ane-rs-9 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\build\generated\res\rs\release
+com.fluocode.ane-mergeReleaseResources-10 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.fluocode.ane-mergeReleaseResources-11 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.fluocode.ane-merged_res-12 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\build\intermediates\merged_res\release
+com.fluocode.ane-main-13 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\src\main\res
+com.fluocode.ane-release-14 C:\Users\esdeb\Documentos\_PROJECTS\ANE-Purchases\android\src\release\res

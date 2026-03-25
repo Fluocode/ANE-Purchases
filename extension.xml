@@ -1,0 +1,102 @@
+<extension xmlns="http://ns.adobe.com/air/extension/22.0">
+  <id>com.fluocode.extensions.billing</id>
+  <versionNumber>1.0.0</versionNumber>
+  <copyright>2026, Fluocode. All rights reserved.</copyright>
+  <description>
+		<text xml:lang="en">Billing adobe air native extension</text> 
+  </description> 
+  <platforms>
+  
+    <platform name="Android-ARM64">
+		<applicationDeployment>
+			<nativeLibrary>libInAppBilling.jar</nativeLibrary>
+			<initializer>com.fluocode.ane.Billing</initializer>
+			<finalizer>com.fluocode.ane.Billing</finalizer>
+		</applicationDeployment>
+    </platform>
+  
+    <platform name="Android-ARM">
+		<applicationDeployment>
+			<nativeLibrary>libInAppBilling.jar</nativeLibrary>
+			<initializer>com.fluocode.ane.Billing</initializer>
+			<finalizer>com.fluocode.ane.Billing</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="Android-x86">
+		<applicationDeployment>
+			<nativeLibrary>libInAppBilling.jar</nativeLibrary>
+			<initializer>com.fluocode.ane.Billing</initializer>
+			<finalizer>com.fluocode.ane.Billing</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="iPhone-ARM">
+		<applicationDeployment>
+			<nativeLibrary>libInAppBilling.a</nativeLibrary>
+			<initializer>inAppBillingExtensionInitializer</initializer>
+			<finalizer>inAppBillingExtensionFinalizer</finalizer>
+		</applicationDeployment>
+	</platform>
+	
+	<platform name="iPhone-x86">
+		<applicationDeployment>
+			<nativeLibrary>libInAppBilling.a</nativeLibrary>
+			<initializer>inAppBillingExtensionInitializer</initializer>
+			<finalizer>inAppBillingExtensionFinalizer</finalizer>
+		</applicationDeployment>
+	</platform>
+	
+	<platform name="default"> 
+		<applicationDeployment>
+		</applicationDeployment>
+	</platform> 
+	
+  </platforms>
+</extension>
+
+<!-- ANE SETUP
+{
+	"minAirVersion":"30.0",
+	"minSwfVersion":"36",
+	"miniOS":"10.0",
+	"minAndroid":"19",
+	"platforms":[
+		{
+			"platform":"android",
+			"dependencies":[
+				{
+					"id":"com.fluocode.extensions.dependency.overrideAir",
+					"v":"6.1.11"
+				}
+			],
+			"manifest":[
+				{
+					"node":"<xml><uses-permission android:name=\"android.permission.INTERNET\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+				{
+					"node":"<xml><uses-permission android:name=\"com.android.vending.BILLING\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+				{
+					"node":"<xml><activity android:name=\"com.android.billingclient.api.ProxyBillingActivity\" android:configChanges=\"keyboard|keyboardHidden|screenLayout|screenSize|orientation\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"/></xml>",
+					"parent":"manifest.application",
+					"sibling":""
+				}
+			]
+		},
+		{
+			"platform":"ios",
+			"dependencies":[
+				{
+					"id":"com.fluocode.extensions.dependency.overrideAir",
+					"v":"6.1.11"
+				}
+			]
+		}
+	]
+}
+-->

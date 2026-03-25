@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.fluocode.ane-merged_res-11:/color/common_google_signin_btn_text_dark.xml",
+        "source": "com.fluocode.ane-play-services-base-18.5.0-2:/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "com.fluocode.ane-merged_res-11:/color/common_google_signin_btn_tint.xml",
+        "source": "com.fluocode.ane-play-services-base-18.5.0-2:/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "com.fluocode.ane-merged_res-11:/color/common_google_signin_btn_text_light.xml",
+        "source": "com.fluocode.ane-play-services-base-18.5.0-2:/color/common_google_signin_btn_text_light.xml"
+    }
+]

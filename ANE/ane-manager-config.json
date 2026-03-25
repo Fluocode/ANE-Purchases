@@ -1,0 +1,124 @@
+{
+  "platforms": [
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/actionscript",
+      "platformName": "AS3 Code",
+      "selected": true,
+      "name": "AS3 Code"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/default",
+      "platformName": "default",
+      "selected": true,
+      "name": "default"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/Android-ARM",
+      "platformName": "Android-ARM",
+      "selected": true,
+      "name": "Android-ARM"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/Android-ARM64",
+      "platformName": "Android-ARM64",
+      "selected": true,
+      "name": "Android-ARM64"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/Android-x86",
+      "platformName": "Android-x86",
+      "selected": true,
+      "name": "Android-x86"
+    },
+    {
+      "path": "",
+      "platformName": "Android-x64",
+      "selected": false,
+      "name": "Android-x64"
+    },
+    {
+      "path": "",
+      "platformName": "Android",
+      "selected": false,
+      "name": "Android"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/iPhone-ARM",
+      "platformName": "iPhone-ARM",
+      "selected": true,
+      "name": "iPhone-ARM"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ANE/iPhone-x86",
+      "platformName": "iPhone-x86",
+      "selected": true,
+      "name": "iPhone-x86"
+    },
+    {
+      "path": "",
+      "platformName": "appleTV-ARM",
+      "selected": false,
+      "name": "appleTV-ARM"
+    },
+    {
+      "path": "",
+      "platformName": "appleTV-x86",
+      "selected": false,
+      "name": "appleTV-x86"
+    },
+    {
+      "path": "",
+      "platformName": "MacOS-x86",
+      "selected": false,
+      "name": "MacOS-x86"
+    },
+    {
+      "path": "",
+      "platformName": "MacOS-x86-64",
+      "selected": false,
+      "name": "MacOS-x86-64"
+    },
+    {
+      "path": "",
+      "platformName": "Windows-x86",
+      "selected": false,
+      "name": "Windows-x86"
+    },
+    {
+      "path": "",
+      "platformName": "Windows-x86-64",
+      "selected": false,
+      "name": "Windows-x86-64"
+    },
+    {
+      "path": "",
+      "platformName": "Linux-x86-64",
+      "selected": false,
+      "name": "Linux-x86-64"
+    },
+    {
+      "path": "",
+      "platformName": "Linux-ARM64",
+      "selected": false,
+      "name": "Linux-ARM64"
+    },
+    {
+      "path": "",
+      "platformName": "",
+      "selected": false,
+      "name": "pathAAR"
+    },
+    {
+      "path": "/Users/fluocode/Desktop/ANE-Purchases/ios/libInAppBillingANE.a",
+      "platformName": "",
+      "selected": true,
+      "name": "pathALibrary"
+    },
+    {
+      "path": "",
+      "platformName": "",
+      "selected": false,
+      "name": "pathANEinCode"
+    }
+  ]
+}

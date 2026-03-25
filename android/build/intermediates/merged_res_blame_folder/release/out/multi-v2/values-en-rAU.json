@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fluocode.ane-mergeReleaseResources-9:/values-en-rAU/values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\esdeb\\.gradle\\caches\\transforms-3\\0f7ea09934c364c9fa6499e98b80e5bc\\transformed\\core-1.2.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.fluocode.ane-merged_res-11:/values-en-rAU/values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\esdeb\\.gradle\\caches\\transforms-3\\0f7ea09934c364c9fa6499e98b80e5bc\\transformed\\core-1.2.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

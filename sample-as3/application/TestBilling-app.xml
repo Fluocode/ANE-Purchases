@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/33.1">
+
+  <id>com.fluocode.samples.billingtest</id>
+  <versionNumber>1.0.0</versionNumber>
+  <filename>BillingTest</filename>
+  <name>BillingTest</name>
+  <description>Test app for com.fluocode.extensions.billing</description>
+
+  <initialWindow>
+    <content>BillingTest.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>auto</renderMode>
+    <autoOrients>true</autoOrients>
+  </initialWindow>
+
+  <extensions>
+    <extensionID>com.fluocode.extensions.billing</extensionID>
+  </extensions>
+
+  <android>
+    <manifestAdditions><![CDATA[
+      <manifest>
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="com.android.vending.BILLING"/>
+
+        <application>
+          <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        </application>
+      </manifest>
+    ]]></manifestAdditions>
+  </android>
+
+</application>
+

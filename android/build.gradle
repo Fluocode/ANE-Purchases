@@ -1,0 +1,38 @@
+plugins {
+    // AGP 7.4.x keeps compatibility with Gradle 7.5.1 (common in older Android Studio installs).
+    id 'com.android.library' version '7.4.2'
+}
+
+android {
+    namespace "com.fluocode.ane"
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 19
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compileOnly files("libs/FlashRuntimeExtensions.jar")
+    implementation "com.android.billingclient:billing:8.3.0"
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = "UTF-8" }
+
+// Produce a `libInAppBilling.jar` (your classes only) from the AAR build output.
+tasks.register("makeJar", Copy) {
+    dependsOn("assembleRelease")
+    from(zipTree("$buildDir/outputs/aar/${project.name}-release.aar"))
+    include("classes.jar")
+    rename("classes.jar", "libInAppBilling.jar")
+    into(file("libs"))
+}
+
+build.dependsOn("makeJar")
+

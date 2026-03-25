@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.fluocode.ane-merged_res-11:/raw/com_android_billingclient_registration_info.binarypb",
+        "source": "com.fluocode.ane-billing-8.3.0-4:/raw/com_android_billingclient_registration_info.binarypb"
+    },
+    {
+        "merged": "com.fluocode.ane-merged_res-11:/raw/com_android_billingclient_heterodyne_info",
+        "source": "com.fluocode.ane-billing-8.3.0-4:/raw/com_android_billingclient_heterodyne_info"
+    }
+]

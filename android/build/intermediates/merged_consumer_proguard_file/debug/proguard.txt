@@ -1,0 +1,2 @@
+-dontwarn com.android.billingclient.**
+
